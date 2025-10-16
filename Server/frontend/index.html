@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>화물-기사 자동매칭 (Leaflet / OpenStreetMap)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link rel="stylesheet" href="/frontend/static/style.css" />
+</head>
+<body>
+  <header class="controls">
+    <h3>🚚 화물-기사 자동매칭 (Leaflet / OpenStreetMap)</h3>
+    <button id="btnLoad">데이터 불러오기</button>
+    <button id="btnMatch">선택 화물 자동매칭</button>
+    <select id="orderSelect"><option value="">화물 선택…</option></select>
+    <span class="hint">* API: /api/orders, /api/drivers, /api/match, /api/drivers_near</span>
+  </header>
+
+  <div id="map"></div>
+  <div id="result"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="/frontend/static/app.js"></script>
+</body>
+</html>

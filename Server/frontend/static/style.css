@@ -1,0 +1,17 @@
+body{margin:0;font-family:system-ui,AppleSDGothicNeo,'Noto Sans KR',sans-serif}
+.controls{display:flex;gap:8px;align-items:center;padding:8px}
+#map{width:100%;height:76vh;border-top:1px solid #eee;border-bottom:1px solid #eee}
+#result{padding:10px 14px}
+.badge{display:inline-block;padding:2px 6px;border-radius:6px;background:#eef;margin-right:6px}
+
+/* TOP 마커 위 거리 라벨 */
+.leaflet-tooltip.rank-label{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #111;
+  font-weight: 600;
+  font-size: 12px;
+  text-shadow: 0 0 3px #fff, 0 0 6px #fff; /* 밝은 배경에서도 잘 보이게 */
+  padding: 0;
+}
