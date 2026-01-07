@@ -40,3 +40,5 @@ VS Code, Git/GitHub, Jupyter, Joblib
 
 -배포/운영-
 로컬 개발서버(Flask) + 정적 프론트엔드(Leaflet). 모델은 model_xgb.pkl 번들로 로드·갱신
+
+https://youtu.be/1McsagsUZ2g   시연영상 링크
