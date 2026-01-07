@@ -42,3 +42,8 @@ VS Code, Git/GitHub, Jupyter, Joblib
 로컬 개발서버(Flask) + 정적 프론트엔드(Leaflet). 모델은 model_xgb.pkl 번들로 로드·갱신
 
 https://youtu.be/1McsagsUZ2g   시연영상 링크
+파란점: 화물 위치
+초록점: 1순위 기사
+노란점: 2순위 기사
+주황점: 3순위 기사
+빨간점: 근처의 다른 기사
